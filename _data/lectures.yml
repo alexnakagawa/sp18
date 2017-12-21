@@ -26,8 +26,7 @@
   topic: Course Overview and Review of Python and Probability 
   lecturer: Gonzalez
   description: |
-    In this lecture we provide an overview of what it means to be a data scientist by examining recent surveys of data scientists.  
-    By exploring the names of students in the class we will review some basic python tools for data manipulation as well as some of the mathematical concepts that will be required in DS100.
+    In this lecture we provide an overview of what it means to be a data scientist by examining recent surveys of data scientists.  By exploring the names of students in the class we will review some basic python tools for data manipulation as well as some of the mathematical concepts that will be required in DS100.
   # links:
   #   - name: pptx
   #     url: https://drive.google.com/open?id=0Bze55lezLJhIX2lnejF6M2lrVmc
@@ -51,12 +50,7 @@
   topic: Data Design and Sources of Bias
   lecturer: Perez
   description: |
-    Fundamentally, (data) science is the study of using data to learn about the world and solve problems.  
-    However, how and what data is collected can have a profound impact on what we can learn and the problems we can solve. 
-    In this lecture, we will begin to explore various mechanisms for data
-    collection and their implications on our ability to generalize.  
-    In particular we will discuss differences between census, surveys, controlled experiments, and observational studies. 
-    We will highlight the power of simple randomization and the fallacies of data scale.
+    Fundamentally, (data) science is the study of using data to learn about the world and solve problems.  However, how and what data is collected can have a profound impact on what we can learn and the problems we can solve. In this lecture, we will begin to explore various mechanisms for data collection and their implications on our ability to generalize.  In particular we will discuss differences between census, surveys, controlled experiments, and observational studies. We will highlight the power of simple randomization and the fallacies of data scale.
 
   # links:
   #   - name: pptx
@@ -76,10 +70,7 @@
   topic: Data Maniuplation using Pandas
   lecturer: Perez
   description: |
-    While data comes in many forms, most data analysis are done on tabular data.
-    Mastering the skills of constructing, cleaning, joining, aggregating, and manipulating tabular data is essential to data science. 
-    In this lecture, we will introduce Pandas, the open-source Python data manipulation library widely used by data scientists. 
-    In addition to introducing new syntax, we will introduce new concepts including indexes, the role of column operations on system performance, and basic tools to begin visualizing data.
+    While data comes in many forms, most data analysis are done on tabular data. Mastering the skills of constructing, cleaning, joining, aggregating, and manipulating tabular data is essential to data science. In this lecture, we will introduce Pandas, the open-source Python data manipulation library widely used by data scientists. In addition to introducing new syntax, we will introduce new concepts including indexes, the role of column operations on system performance, and basic tools to begin visualizing data.
   
   # links:
   #   - name: slides
@@ -98,162 +89,156 @@
   # assignment: |
   #   [Vitamin 1 Released](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
 
-- date: 9/5/2017
+
+- date: 1/25/2018
   topic: EDA and Data Cleaning
   lecturer: Gonzalez
   description: |
-    Whether collected by you or obtained from someone else, raw data is seldom
-    ready for immediate analysis.  Through exploratory data analysis we can
-    often discover important anomalies, identify limitations in the
-    collection process, and better inform subsequent goal oriented analysis.
-    In this lecture we will discuss how to identify and correct common data
-    anomalies and their implications on future analysis.  We will also
-    discuss key properties of data including structure, granularity,
-    faithfulness, temporality and scope and how these properties can inform
-    how we prepare, analyze, and visualize data.
-  assignment: |
-    [Lab 2 Released: pandas](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab02.zip)
+    Whether collected by you or obtained from someone else, raw data is seldom ready for immediate analysis.  Through exploratory data analysis we can often discover important anomalies, identify limitations in the collection process, and better inform subsequent goal oriented analysis. In this lecture we will discuss how to identify and correct common data anomalies and their implications on future analysis.    We will also discuss key properties of data including structure, granularity, faithfulness, temporality and scope and how these properties can inform how we prepare, analyze, and visualize data.
+  
+  # assignment: |
+  #   [Lab 2 Released: pandas](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab02.zip)
 
-    [Homework 2 Released: Food Safety Data Cleaning and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw2.zip)
-  links:
-    - name: pptx
-      url: https://drive.google.com/open?id=0Bze55lezLJhIaXdKZUlpbGM1Vkk
-    - name: pdf
-      url: https://drive.google.com/open?id=0Bze55lezLJhISklOSHJyS0ZnMjA
-    - name: handout
-      url: https://drive.google.com/open?id=0Bze55lezLJhIRkRRWWRwdE13MVU
-    - name: optional reading
-      url: http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf
-    - name: optional interesting tutorial
-      url: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
-    - name: web notebook
-      url: assets/notebooks/04-lec/EDA_and_cleaning.html
-    - name: python
-      url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb
-    - name: data
-      url: assets/notebooks/04-lec/data.zip
-    - name: screencast
-      url: https://www.youtube.com/watch?v=zOapXXD_oxI
+  #   [Homework 2 Released: Food Safety Data Cleaning and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw2.zip)
+  # links:
+  #   - name: pptx
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhIaXdKZUlpbGM1Vkk
+  #   - name: pdf
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhISklOSHJyS0ZnMjA
+  #   - name: handout
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhIRkRRWWRwdE13MVU
+  #   - name: optional reading
+  #     url: http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf
+  #   - name: optional interesting tutorial
+  #     url: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
+  #   - name: web notebook
+  #     url: assets/notebooks/04-lec/EDA_and_cleaning.html
+  #   - name: python
+  #     url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb
+  #   - name: data
+  #     url: assets/notebooks/04-lec/data.zip
+  #   - name: screencast
+  #     url: https://www.youtube.com/watch?v=zOapXXD_oxI
 
 
-- date: 9/7/2017
-  topic: EDA Continued
+- date: 1/30/2018
+  topic: EDA and Visualization
   lecturer: Gonzalez
   description: |
-    Continue exploratory data analysis by digging into police records and basic data visualization.
-  links:
-    - name: pptx
-      url: https://drive.google.com/open?id=0Bze55lezLJhISmdGeGVzZHdtMms
-    - name: pdf
-      url: https://drive.google.com/open?id=0Bze55lezLJhIRjZVU2EwdnRxeWs
-    - name: handout
-      url: https://drive.google.com/open?id=0Bze55lezLJhIRXVmWV8wa2xrY1E
-    - name: Joins notebook (html)
-      url: assets/notebooks/05-lec/join_example.html
-    - name: Joins notebook (ipynb)
-      url: assets/notebooks/05-lec/join_example.ipynb
-    - name: EDA notebook (html)
-      url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.html
-    - name: EDA notebook (ipynb)
-      url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.ipynb
-    - name: data
-      url: assets/notebooks/04-lec/data.zip
-    - name: screencast
-      url: https://www.youtube.com/watch?v=jCijnWPkbNY
-    - name: discussion notebook
-      url: https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip
-  assignment: |
-    [Vitamin 2 Released](https://goo.gl/forms/hDjtAL3nHxt0gIei2)
+    In this lecture we will continue to work through a real-world exercise in EDA using public crime data for the city of Berkeley. We will also begin to introduce tools for data visualization using Pandas, Seaborn, and Matplotlib.
+  
+  # links:
+  #   - name: pptx
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhISmdGeGVzZHdtMms
+  #   - name: pdf
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhIRjZVU2EwdnRxeWs
+  #   - name: handout
+  #     url: https://drive.google.com/open?id=0Bze55lezLJhIRXVmWV8wa2xrY1E
+  #   - name: Joins notebook (html)
+  #     url: assets/notebooks/05-lec/join_example.html
+  #   - name: Joins notebook (ipynb)
+  #     url: assets/notebooks/05-lec/join_example.ipynb
+  #   - name: EDA notebook (html)
+  #     url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.html
+  #   - name: EDA notebook (ipynb)
+  #     url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.ipynb
+  #   - name: data
+  #     url: assets/notebooks/04-lec/data.zip
+  #   - name: screencast
+  #     url: https://www.youtube.com/watch?v=jCijnWPkbNY
+  #   - name: discussion notebook
+  #     url: https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip
+  # assignment: |
+  #   [Vitamin 2 Released](https://goo.gl/forms/hDjtAL3nHxt0gIei2)
 
-- date: 9/12/2017
+
+- date: 2/1/2018
   topic: Visualization and Data Tranformations
-  lecturer: Nolan
+  lecturer: Perez
   description: |
-    A large fraction of the human brain is devoted to visual perception.   As a
-    consequence, visualization is a critical tool in both exploratory data
-    analysis and communicating complex relationships in data.  However, making
-    informative and clear visualizations of complex concepts can be
-    challenging.  In this lecture, we explore good and bad visualizations
-    and describe how to choose visualizations for various kinds of data and
-    goals.
+    A large fraction of the human brain is devoted to visual perception.  As a consequence, visualization is a critical tool in both exploratory data analysis and communicating complex relationships in data. However, making informative and clear visualizations of complex concepts can be challenging.  In this lecture, we explore good and bad visualizations and describe how to choose visualizations for various kinds of data and goals.  Directly visualizing data can result in less informative for several reaasons: plots as curvilinear relationships can be difficult to assess; large numbers of observations can hide core features; and it can be difficult to visualize large  numbers of variables. In this lecture, we discuss techniques of data transformations, smoothing, and dimensionality reduction to address challenges in creating informative visualization. With these  additional analytics we can often reveal important and informative patterns in data.  We pick up with transformations.
 
-  assignment: |
-    [Lab 3 Released: Data cleaning and seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
 
-    [Homework 3 Released: Bike Sharing and Multivariate Visualization](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw3.zip)
+  # assignment: |
+  #   [Lab 3 Released: Data cleaning and seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
 
-  links:
-    - name: pptx
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZGNoenU3enR5TW8
-    - name: pdf
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ejQ4NExvZmhETTQ
-    - name: handout
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5djhMYkwwc2NjUXM
-    - name: optional reading (Seaborn Tutorial)
-      url: https://seaborn.pydata.org/tutorial.html
-    - name: optional reading (Plotting with Pandas)
-      url: https://pandas.pydata.org/pandas-docs/stable/visualization.html
-    - name: screencast
-      url: https://www.youtube.com/watch?v=48f_4nZIriA
+  #   [Homework 3 Released: Bike Sharing and Multivariate Visualization](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw3.zip)
 
-- date: 9/14/2017
-  topic: Visualization, Ctd.
-  lecturer: Nolan
+  # links:
+  #   - name: pptx
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZGNoenU3enR5TW8
+  #   - name: pdf
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5ejQ4NExvZmhETTQ
+  #   - name: handout
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5djhMYkwwc2NjUXM
+  #   - name: optional reading (Seaborn Tutorial)
+  #     url: https://seaborn.pydata.org/tutorial.html
+  #   - name: optional reading (Plotting with Pandas)
+  #     url: https://pandas.pydata.org/pandas-docs/stable/visualization.html
+  #   - name: screencast
+  #     url: https://www.youtube.com/watch?v=48f_4nZIriA
+  #   - name: pptx
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5NVB0RzJmaGNfdTA
+  #   - name: pdf
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZndINVR4TmN6RFU
+  #   - name: handout
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5QjFaellOZ2JwVVE
+  #   - name: screencast
+  #     url: https://www.youtube.com/watch?v=N1Y2-I9U_Qg
+
+  # links:
+  # assignment: |
+  #   [Vitamin 3 Released](https://goo.gl/forms/nss4lY8STRUiUonM2)
+
+
+- date: 2/6/2018
+  topic: Working with Text
+  lecturer: Gonzalez
   description: |
-    Directly visualizing data can result in less informative for several reaasons:
-    plots as curvilinear relationships can be difficult to assess;
-    large numbers of observations can hide core features;
-    and it can be difficult to visualize large  numbers of variables.
-    In this lecture, we discuss techniques of data transformations, smoothing, and
-    dimensionality reduction to address challenges in creating informative
-    visualization. With these  additional analytics we can often reveal
-    important and informative patterns in data.
-    We pick up with transformations.
+    Whether in documents, tweets, or records in a table, text data is ubiquitous and presents a unique set of challenges for data scientists.
+    How do you extract key phrases from text?  What are meaningful aggregate summaries of text?  
+    How do you visualize textual data?  
+    In this lecture we will introduce a set of techniques (e.g., bag-of-words) to transform text into numerical data and subsequent tabular analysis.  
+    We will also introduce regular expressions as a mechanism for cleaning and transforming text data data.
 
-  links:
-    - name: pptx
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5NVB0RzJmaGNfdTA
-    - name: pdf
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZndINVR4TmN6RFU
-    - name: handout
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5QjFaellOZ2JwVVE
-    - name: screencast
-      url: https://www.youtube.com/watch?v=N1Y2-I9U_Qg
-  assignment: |
-    [Vitamin 3 Released](https://goo.gl/forms/nss4lY8STRUiUonM2)
+  # links:
+  #   - name: pptx
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5S0Z6akh5NEtiZWc
+  #   - name: pdf
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5RE9XZWl4c2JwLXc
+  #   - name: handout
+  #     url: https://drive.google.com/open?id=0B7gkaDYGT5X5MWJmOTg1TGdkWmc
+  #   - name: RegEx notebook (html)
+  #     url: assets/notebooks/08-lec/regular_expression_examples.html
+  #   - name: RegEx notebook (ipynb)
+  #     url: assets/notebooks/08-lec/regular_expression_examples.ipynb
+  #   - name: data
+  #     url: assets/notebooks/08-lec/data.zip
+  #   - name: screencast
+  #     url: https://www.youtube.com/watch?v=o6nj8q2nrg8
+  # assignment: |
+  #   [Project 1 Released: Twitter Analysis](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/proj1.zip)
 
-- date: 9/19/2017
-  topic: Working with text
-  lecturer: Nolan
+  #   [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+
+
+- date: 2/8/2018
+  topic: XPath and Web Technologies
+  lecturer: Perez
   description: |
-    Whether in documents, tweets, or records in a table, text data is
-    ubiquitous and presents a unique set of challenges for data scientists.
-    How do you extract key phrases from text?  What are meaningful aggregate
-    summaries of text?  How do you visualize textual data?  In this lecture we
-    will introduce a set of techniques (e.g., bag-of-words) to transform text
-    into numerical data and subsequent tabular analysis.  We will also
-    introduce regular expressions as a mechanism for cleaning and transforming
-    text data data.
+    Data are available on the Internet - they can be embedded in web pages, provided after a form submission, and accessible through a REST API. We can access data from these various sources using HTTP - the HyperText Transfer Protocol. We will cover HTTP at a high level, and provide examples of how to use it to access web pages, submit forms, and crate REST requests.  Furthermore, when the data are embedded in an HTML document, we can use XPath to locate and extract it. XPath is a powerful tool developed for locating elements and content in an XML document (much better than regular expressions!). We cover the basics of XPath, which is enough to write complex expressions.   
 
-  links:
-    - name: pptx
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5S0Z6akh5NEtiZWc
-    - name: pdf
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5RE9XZWl4c2JwLXc
-    - name: handout
-      url: https://drive.google.com/open?id=0B7gkaDYGT5X5MWJmOTg1TGdkWmc
-    - name: RegEx notebook (html)
-      url: assets/notebooks/08-lec/regular_expression_examples.html
-    - name: RegEx notebook (ipynb)
-      url: assets/notebooks/08-lec/regular_expression_examples.ipynb
-    - name: data
-      url: assets/notebooks/08-lec/data.zip
-    - name: screencast
-      url: https://www.youtube.com/watch?v=o6nj8q2nrg8
-  assignment: |
-    [Project 1 Released: Twitter Analysis](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/proj1.zip)
-
-    [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+  # links:
+  # - name: pptx 
+  #   url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
+  # - name: pdf 
+  #   url: https://drive.google.com/open?id=1274pH3aG79GWoct2aYi4fkFDdZqvdCb0
+  # - name: handout
+  #   url: https://drive.google.com/open?id=1nnnistmtM3EQ08865SIp4ezcBzE0SXio
+  # - name: screencast
+  #   url: https://www.youtube.com/watch?v=EHo0Y6S1vIk
+  # assignment: |
+  #   [Lab 12 Released: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
 
 
 - date: 9/21/2017
@@ -661,22 +646,7 @@
 - date: 11/23/2017
   topic: Holiday!!
 
-- date: 11/28/2017
-  topic: HTTP requests, REST, and XPath
-  lecturer: Nolan
-  description: |
-    Data are available on the Internet - they can be embedded in web pages, provided after a form submission, and accessible through a REST API. We can access data from these various sources using HTTP - the HyperText Transfer Protocol. We will cover HTTP at a high level, and provide examples of how to use it to access web pages, submit forms, and crate REST requests.  Furthermore, when the data are embedded in an HTML document, we can use XPath to locate and extract it. XPath is a powerful tool developed for locating elements and content in an XML document (much better than regular expressions!). We cover the basics of XPath, which is enough to write complex expressions.   
-  links:
-  - name: pptx 
-    url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
-  - name: pdf 
-    url: https://drive.google.com/open?id=1274pH3aG79GWoct2aYi4fkFDdZqvdCb0
-  - name: handout
-    url: https://drive.google.com/open?id=1nnnistmtM3EQ08865SIp4ezcBzE0SXio
-  - name: screencast
-    url: https://www.youtube.com/watch?v=EHo0Y6S1vIk
-  assignment: |
-    [Lab 12 Released: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
+
 
 - date: 11/30/2017
   topic: Ethics in Data Science
