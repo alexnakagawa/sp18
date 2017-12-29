@@ -195,11 +195,7 @@
   topic: Working with Text
   lecturer: Gonzalez
   description: |
-    Whether in documents, tweets, or records in a table, text data is ubiquitous and presents a unique set of challenges for data scientists.
-    How do you extract key phrases from text?  What are meaningful aggregate summaries of text?  
-    How do you visualize textual data?  
-    In this lecture we will introduce a set of techniques (e.g., bag-of-words) to transform text into numerical data and subsequent tabular analysis.  
-    We will also introduce regular expressions as a mechanism for cleaning and transforming text data data.
+    Whether in documents, tweets, or records in a table, text data is ubiquitous and presents a unique set of challenges for data scientists.  How do you extract key phrases from text?  What are meaningful aggregate summaries of text?  How do you visualize textual data?  In this lecture we will introduce a set of techniques (e.g., bag-of-words) to transform text into numerical data and subsequent tabular analysis.  We will also introduce regular expressions as a mechanism for cleaning and transforming text data data.
 
   # links:
   #   - name: pptx
@@ -239,6 +235,69 @@
   #   url: https://www.youtube.com/watch?v=EHo0Y6S1vIk
   # assignment: |
   #   [Lab 12 Released: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
+
+
+
+- date: 02/13/2019
+  topic: Introduction to Relational Data Management and SQL
+  lecturer: Gonzalez
+  description: |
+    Much of the the important data in the world is stored 
+    SQL is the most widely used language for accessing and manipulating data.  In this lecture we introduce
+
+     the SQL language and the Relational data model.  We will describe some of the basic SQL operations and provide some motivation behind the relational model of tabular data. (Lecture updated 10/18/2017.)
+  links:
+    - name: pptx 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIaU9wZ3YzNlhyM0E
+    - name: pdf 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIbHc4cWtYblk2dnM
+    - name: handout 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIX1ZaU2JkclJ6LVU
+    - name: Notebook HTML
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.html
+    - name: Notebook ipynb
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.ipynb
+    - name: PostgreSQL for Mac
+      url: https://postgresapp.com
+    - name: PostgreSQL for Windows
+      url: https://www.postgresql.org/download/windows/
+    - name: PostgreSQL for Linux
+      url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
+    - name: W3C Tutorial
+      url: https://www.w3schools.com/sql/default.asp
+    - name: screencast
+      url: https://www.youtube.com/watch?v=iOZaohMSijk
+  assignment: |
+    [Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
+
+    [Homework 4 Released: The Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw4.zip)
+
+
+- date: 10/19/2017
+  topic: More Advanced SQL
+  lecturer: Gonzalez
+  description: |
+    In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations and explore FEC data.
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIVko4WXNGbHVIOUE
+  - name: pdf 
+    url: https://drive.google.com/open?id=0Bze55lezLJhId1ZRWmpCeUJjWjg
+  - name: handout 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIVVVQMXVLZ0xSTEk
+  - name: Notebook HTML
+    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.html
+  - name: Notebook ipynb
+    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.ipynb
+  - name: The FEC SQL Data (Students and Sailors inlcuded)
+    url: https://drive.google.com/open?id=0Bze55lezLJhIMi1PMUVxZjhyRkU
+  - name: Loading the SQL Dump
+    url: https://www.postgresql.org/docs/9.1/static/backup-dump.html
+  - name: screencast
+    url: https://www.youtube.com/watch?v=KNRVdz5H3-8
+  assignment: |
+    [Vitamin 7 Released](https://goo.gl/forms/6gEeh8fujqcpNVbA3)
+  
 
 
 - date: 9/21/2017
@@ -400,67 +459,6 @@
     - name: midterm solutions
       url: assets/exams/midterm/fa17-midterm-solutions.pdf
 
-- date: 10/17/2017
-  topic: Introduction to SQL and the Relational Model
-  lecturer: Gonzalez
-  description: |
-    SQL is the most widely used language for accessing and manipulating data.
-    In this lecture we introduce the SQL language and more the
-    Relational model of data.  We will describe some of the basic SQL
-    operations and provide some motivation behind the relational model of
-    tabular data. (Lecture updated 10/18/2017.)
-  links:
-    - name: pptx 
-      url: https://drive.google.com/open?id=0Bze55lezLJhIaU9wZ3YzNlhyM0E
-    - name: pdf 
-      url: https://drive.google.com/open?id=0Bze55lezLJhIbHc4cWtYblk2dnM
-    - name: handout 
-      url: https://drive.google.com/open?id=0Bze55lezLJhIX1ZaU2JkclJ6LVU
-    - name: Notebook HTML
-      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.html
-    - name: Notebook ipynb
-      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.ipynb
-    - name: PostgreSQL for Mac
-      url: https://postgresapp.com
-    - name: PostgreSQL for Windows
-      url: https://www.postgresql.org/download/windows/
-    - name: PostgreSQL for Linux
-      url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
-    - name: W3C Tutorial
-      url: https://www.w3schools.com/sql/default.asp
-    - name: screencast
-      url: https://www.youtube.com/watch?v=iOZaohMSijk
-  assignment: |
-    [Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
-
-    [Homework 4 Released: The Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw4.zip)
-
-
-- date: 10/19/2017
-  topic: More Advanced SQL
-  lecturer: Gonzalez
-  description: |
-    In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations and explore FEC data.
-  links:
-  - name: pptx 
-    url: https://drive.google.com/open?id=0Bze55lezLJhIVko4WXNGbHVIOUE
-  - name: pdf 
-    url: https://drive.google.com/open?id=0Bze55lezLJhId1ZRWmpCeUJjWjg
-  - name: handout 
-    url: https://drive.google.com/open?id=0Bze55lezLJhIVVVQMXVLZ0xSTEk
-  - name: Notebook HTML
-    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.html
-  - name: Notebook ipynb
-    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.ipynb
-  - name: The FEC SQL Data (Students and Sailors inlcuded)
-    url: https://drive.google.com/open?id=0Bze55lezLJhIMi1PMUVxZjhyRkU
-  - name: Loading the SQL Dump
-    url: https://www.postgresql.org/docs/9.1/static/backup-dump.html
-  - name: screencast
-    url: https://www.youtube.com/watch?v=KNRVdz5H3-8
-  assignment: |
-    [Vitamin 7 Released](https://goo.gl/forms/6gEeh8fujqcpNVbA3)
-  
   
 - date: 10/24/2017
   topic: Big Data Part 1
