@@ -57,7 +57,9 @@ However, we have listed a few optional books that will provide additional contex
 
 
 
+## Relevant Classes At Berkeley:
 
+* **[Stat89a: Linear Algebra for Data Science](https://www.stat.berkeley.edu/~mmahoney/s18-lads/)**.  An introduction to linear algebra for data science. The course will cover introductory topics in linear algebra, starting with the basics; discrete probability and how probability can be used to understand high-dimensional vector spaces; matrices and graphs as popular mathematical structures with which to model data (e.g., as models for term-document corpora, high-dimensional regression problems, ranking/classification of web data, adjacency properties of social network data, etc.); and geometric approaches to eigendecompositions, least-squares, principal components analysis, etc.
 
 
 
