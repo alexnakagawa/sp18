@@ -42,14 +42,14 @@ If you have issues with enrollment contact: <a href="mailto:csconners@cs.berkele
 If you have enrolled in the wait-list please complete the following  <a href="https://goo.gl/forms/Ku5cu7L7cUbSaTKc2">Background Survey</a> we will use this to help in admitting students into the class.  Please sign up for Piazza to follow updates on the wait list.
  -->
 
-<!-- ## Office Hours, Section, and Lab Schedule
+ ## Office Hours, Section, and Lab Schedule
 
 <div class="embed-wrapper">
-  <iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_8134mn9ocmcqncv8g6vj9fr3sg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_3iothuu50b7vt60vh265urvkgg%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
 </div>
 
 For official holidays see the [academic calendar](http://registrar.berkeley.edu/sites/default/files/pdf/UCB_AcademicCalendar_2017-18_V3.pdf).
- -->
+
 
 ## Goals
 
