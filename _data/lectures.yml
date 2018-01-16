@@ -27,21 +27,21 @@
   lecturer: Gonzalez
   description: |
     In this lecture we provide an overview of what it means to be a data scientist by examining recent surveys of data scientists.  By exploring the names of students in the class we will review some basic python tools for data manipulation as well as some of the mathematical concepts that will be required in DS100.
-  # links:
-  #   - name: pptx
-  #     url: https://drive.google.com/open?id=0Bze55lezLJhIX2lnejF6M2lrVmc
-  #   - name: pdf
-  #     url: https://drive.google.com/open?id=0Bze55lezLJhIRVBhUmU0alBwRUU
-  #   - name: handout
-  #     url: https://drive.google.com/open?id=0Bze55lezLJhIYWlUcmFjTFY1Wnc
-  #   - name: exercise materials
-  #     url: https://drive.google.com/open?id=0Bze55lezLJhIVjlRUVJUYXJKZm8
-  #   - name: web notebook
-  #     url: assets/notebooks/01-lec/data_science_lifecycle.html
-  #   - name: optional reading (Data Science and Science)
-  #     url: http://www.pnas.org/content/114/33/8689.full.pdf
-  #   - name: screencast
-  #     url: https://www.youtube.com/watch?v=CwnNCjWVLDY
+  links:
+    - name: pptx
+      url: assets/lectures/lec01/01-intro-to-data100_v2.pptx
+    - name: pdf
+      url: assets/lectures/lec01/01-intro-to-data100_v2.pdf
+    - name: handout
+      url: assets/lectures/lec01/01-intro-to-data100_v2-handouts.pdf
+    - name: HTML notebook
+      url: assets/lectures/lec01/Data_Science_Lifecycle.html
+    - name: notebook.zip
+      url: assets/lectures/lec01/notebook.zip
+    - name: roster data (Berkeley only)
+      url: https://drive.google.com/file/d/17jduAdN7IuRJeU1_a-aXyaHcIWamKrzk/view?usp=sharing
+    - name: optional reading (Data Science and Science)
+      url: http://www.pnas.org/content/114/33/8689.full.pdf
   
 
 
